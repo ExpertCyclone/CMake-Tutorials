@@ -1,0 +1,14 @@
+To link and compile
+$ cmake CMakeLists.txt  // Cmake will create Makefile for you!
+$ make 
+
+To run the app:
+$ ./Tutorial1 <number>
+
+To build a binary distribution you would run:
+$ cpack --config CPackConfig.cmake
+
+To create a source distribution you would type
+$ cpack --config CPackSourceConfig.cmake
+
+

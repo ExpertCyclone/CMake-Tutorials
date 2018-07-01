@@ -1,0 +1,6 @@
+Commands to Run:
+$ cmake CMakeLists.txt 
+$ make
+$ ./Tutorial1
+
+Cmake will create Makefile for you!
