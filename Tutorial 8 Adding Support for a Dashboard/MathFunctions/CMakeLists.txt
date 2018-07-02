@@ -13,9 +13,9 @@ add_custom_command (
 include_directories( ${CMAKE_CURRENT_BINARY_DIR} )
  
 # add the main library
-add_library(MathFunctions mysqrt.cpp ${CMAKE_CURRENT_BINARY_DIR}/Table.h)
+add_library(MathFunctions MakeTable.cpp mysqrt.cpp ${CMAKE_CURRENT_BINARY_DIR}/Table.h)
 
 # install app into system DESTINATION = /usr/local
 install (TARGETS MathFunctions DESTINATION bin)
-install (FILES MathFunctions.h DESTINATION include)
+install (FILES MathFunctions.h mysqrt.h DESTINATION include)
 

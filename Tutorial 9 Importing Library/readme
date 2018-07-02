@@ -3,7 +3,4 @@ $ cmake CMakeLists.txt
 $ make
 $ ./Tutorial1 <number>
 
-To Install to system:
-$ sudo make install
-
 Cmake will create Makefile for you!

@@ -2,6 +2,9 @@ To link and compile
 $ cmake CMakeLists.txt  // Cmake will create Makefile for you!
 $ make 
 
+To Install to system:
+$ sudo make install
+
 To run the app:
 $ ./Tutorial1 <number>
 
