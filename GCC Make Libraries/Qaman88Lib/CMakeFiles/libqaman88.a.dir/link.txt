@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibqaman88.a.a  CMakeFiles/libqaman88.a.dir/qaman88.cpp.o
+/usr/bin/ranlib liblibqaman88.a.a

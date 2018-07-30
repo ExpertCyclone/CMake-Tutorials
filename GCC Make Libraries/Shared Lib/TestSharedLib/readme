@@ -1,0 +1,9 @@
+You need headers <*>.h  
+You don't need lib<name>.so
+You don't need <*>.c
+You driver <name>.c
+
+
+ $ gcc -Wall -L. cprog.c -lctest -o 
+
+Tell system to search libctest.so in /usr/lib/

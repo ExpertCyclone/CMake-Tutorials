@@ -1,0 +1,6 @@
+Static libraries   lib<name>.a
+
+Dynamic(Shared) libraries lib<name>.so
+
+Link the library as -l<name> for shared and static libs
+(without the "lib", ".so", "a")

@@ -1,0 +1,12 @@
+http://www.techytalk.info/c-cplusplus-library-programming-on-linux-part-two-dynamic-libraries/
+
+Dynamic (shared) libraries
+
+Dynamic libraries are different from static libraries in a way that by 
+using them, during compilation process, GCC ads only code "hooks" and 
+soname. That "hooks" and library soname are used during the startup of 
+your application to load correct library and connect "inside" with the 
+"outside" code. There are many advantages of using dynamic libraries. 
+First of all Linux dynamic loader loads dynamic library only once, and 
+than all programs use same copy of this library code. 
+

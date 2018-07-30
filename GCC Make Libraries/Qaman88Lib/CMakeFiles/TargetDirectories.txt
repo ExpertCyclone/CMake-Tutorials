@@ -1,0 +1,3 @@
+/home/expertcyclone/Desktop/MakeLibraries/Qaman88Lib/CMakeFiles/edit_cache.dir
+/home/expertcyclone/Desktop/MakeLibraries/Qaman88Lib/CMakeFiles/rebuild_cache.dir
+/home/expertcyclone/Desktop/MakeLibraries/Qaman88Lib/CMakeFiles/libqaman88.a.dir
